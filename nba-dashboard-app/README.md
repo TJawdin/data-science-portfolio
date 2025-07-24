@@ -5,6 +5,9 @@ An interactive data visualization app that lets users explore NBA player perform
 Built with `Streamlit`, `pandas`, and an `XGBoost` model trained on 2024–25 NBA data.
 
 ---
+![dashboard-screenshot](assets/screenshot.png)
+
+---
 
 ## 🎯 Features
 
@@ -29,6 +32,7 @@ nba-dashboard-app/
 ├── requirements.txt
 └── README.md
 
+---
 
 ## 🚀 Model Training (Optional for Rebuilding)
 If you'd like to retrain the XGBoost model:
@@ -41,7 +45,7 @@ Use train_test_split() and XGBRegressor
 
 Save the model to models/pts_predictor_xgb.pkl
 
-
+---
 
 ## 🧠 Tech Stack
 | Purpose       | Tool                       |
@@ -52,6 +56,7 @@ Save the model to models/pts_predictor_xgb.pkl
 | Deployment    | Streamlit Cloud (optional) |
 | Language      | Python 3.10+               |
 
+---
 
 ## 🧰 Future Improvements
 Player comparison feature
@@ -62,6 +67,7 @@ Deploy as public app (Streamlit Cloud)
 
 Scrape new NBA game data via API
 
+---
 
 🧑‍💻 Author
 TJ
